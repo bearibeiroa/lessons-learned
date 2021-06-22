@@ -1,68 +1,103 @@
-        body {
-            background-color: rgb(253, 251, 251);
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 16px;
-            line-height: 25px;
-        }
-        
-        #cabecalho {
-            position: fixed;
-            top: 0;
-            background-color: skyblue;
-            width: 100%;
-            padding: 30px;
-            border-bottom: solid 2px white;
-            font-size: 20px;
-            text-align: center;
-            line-height: 20px;
-        }
-        
-        #portfolio {
-            text-decoration: none;
-            color: yellow;
-        }
-        
-        #titulo {
-            color: white;
-        }
-        
-        #minha_foto {
-            margin-top: 180px;
-            border-radius: 50%;
-            border: 4px solid silver
-        }
-        
-        table {
-            text-align: center;
-            border-collapse: collapse;
-            margin-bottom: 15px;
-            padding: 50px;
-        }
-        
-        ol {
-            margin-top: 50px;
-        }
-        
-        td,
-        th {
-            border: 1px solid silver;
-            text-align: center;
-            padding: 10px;
-        }
-        
-        .lado-esquerdo {
-            float: left;
-            width: 45%;
-            padding: 10px;
-        }
-        
-        .lado-direito {
-            float: right;
-            width: 45%;
-            padding: 10px;
-            margin-top: 10px;
-        }
-        
-        ol {
-            clear: both;
-        }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    background-color: skyblue;
+    width: 100%;
+    padding: 30px;
+    border-bottom: solid 2px white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#portfolio {
+    text-decoration: none;
+    color: yellow;
+}
+
+#titulo {
+    color: white;
+}
+
+#minha_foto {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 4px solid silver;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    padding: 50px;
+    clear: both;
+}
+
+ol {
+    margin-top: 50px;
+}
+
+td,
+th {
+    border: 1px solid silver;
+    text-align: center;
+    padding: 10px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.lado-direito {
+    float: right;
+    width: 45%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: skyblue;
+}
+
+#licoes_aprendidas {
+    clear: both;
+    padding: 50px;
+    float: left;
+    width: 40%;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    padding: 50px;
+    float: right;
+    width: 40%;
+    display: inline-block;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
