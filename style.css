@@ -1,20 +1,33 @@
-body {
-    background-color: rgb(253, 251, 251);
-}
-
-#cabecalho {
-    position: fixed;
-    top: 0;
-}
-
-table {
-    border-collapse: collapse;
-    margin-bottom: 15px;
-}
-
-td,
-th {
-    border: 1px solid #c0c0c0;
-    text-align: center;
-    padding: 10px;
-}
+    body {
+        background-color: rgb(253, 251, 251);
+    }
+    
+    #cabecalho {
+        position: fixed;
+        top: 0;
+        background-color: skyblue;
+        width: 100%;
+        padding: 20px;
+        border-bottom: solid 2px white;
+    }
+    
+    #titulo {
+        color: white;
+    }
+    
+    #minha_foto {
+        margin-top: 180px;
+        border-radius: 50%;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-bottom: 15px;
+    }
+    
+    td,
+    th {
+        border: 1px solid silver;
+        text-align: center;
+        padding: 10px;
+    }
