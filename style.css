@@ -6,3 +6,15 @@ body {
     position: fixed;
     top: 0;
 }
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+td,
+th {
+    border: 1px solid #c0c0c0;
+    text-align: center;
+    padding: 10px;
+}
